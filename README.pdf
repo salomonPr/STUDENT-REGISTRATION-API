@@ -1,0 +1,29 @@
+Student Registration API
+========================
+
+A RESTful API built with Spring Boot for managing student registration. This project provides endpoints to create, read, update, and delete student records. It has been successfully tested in Postman.
+
+
+ Features
+ ========
+•	Register new students
+•	View student details
+•	Update student information
+•	Delete student records
+•	RESTful design with JSON responses
+
+Technologies Used
+=================
+•	Java 17+
+•	Spring Boot
+•	Maven (dependency management & build tool)
+•	Postman (API testing)
+
+API Endpoints
+=============
+Method	       Endpoint	 Description
+GET	           /api/students	         Get all students
+GET	          /api/student/{id}	         Get student by ID
+POST	       /api/student/add	          Register a new student
+PUT	   /api/student/update/{id}	           Update student details
+DELETE	  /api/student/delete/{id}	           Delete a student record
